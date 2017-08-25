@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Proyectos on Miguel Cortes</title>
+    <link>https://macn1234.github.io/proyectos/</link>
+    <description>Recent content in Proyectos on Miguel Cortes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Aug 2017 21:28:19 -0500</lastBuildDate>
+    <atom:link href="https://macn1234.github.io/proyectos/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Dectector De Plagio</title>
+      <link>https://macn1234.github.io/proyectos/DectectorDePlagio/</link>
+      <pubDate>Thu, 24 Aug 2017 21:28:19 -0500</pubDate>
+      
+      <guid>https://macn1234.github.io/proyectos/DectectorDePlagio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GIA UN</title>
+      <link>https://macn1234.github.io/proyectos/GIAUN/</link>
+      <pubDate>Thu, 24 Aug 2017 21:17:38 -0500</pubDate>
+      
+      <guid>https://macn1234.github.io/proyectos/GIAUN/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>voiceCar</title>
+      <link>https://macn1234.github.io/proyectos/voiceCar/</link>
+      <pubDate>Thu, 24 Aug 2017 21:17:16 -0500</pubDate>
+      
+      <guid>https://macn1234.github.io/proyectos/voiceCar/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
