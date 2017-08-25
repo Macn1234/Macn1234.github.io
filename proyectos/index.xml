@@ -10,12 +10,13 @@
     <atom:link href="https://macn1234.github.io/proyectos/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Dectector De Plagio</title>
+      <title>Dectector De Plagio en codigo fuente</title>
       <link>https://macn1234.github.io/proyectos/DectectorDePlagio/</link>
       <pubDate>Thu, 24 Aug 2017 21:28:19 -0500</pubDate>
       
       <guid>https://macn1234.github.io/proyectos/DectectorDePlagio/</guid>
-      <description></description>
+      <description>&lt;p&gt;Este software se desarrollo la materia de Lenguajes de programación , Básicamente consiste en un comparador de códigos , el cual por diferentes algoritmos de comparación de strings y otras características que hay que tener en cuenta a la hora de analizar código, decía que porcentaje de similitud hay entre códigos.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -24,7 +25,8 @@
       <pubDate>Thu, 24 Aug 2017 21:17:38 -0500</pubDate>
       
       <guid>https://macn1234.github.io/proyectos/GIAUN/</guid>
-      <description></description>
+      <description>&lt;p&gt;GIA UN es una aplicación pensada para estudiantes, la cual básicamente consiste en armar grupos de estudio de acuerdo al tema de interés de los estudiantes. Esta aplicación se realizo para la materia Ingeniería de Sotfware I , usando el framework Django. En este desarrollo, los usuarios se registran por medio del correo institucional, y una vez registrados podrán crear grupos o unirse al que fuera de su interés. Ademas , en los grupos se pueden crear eventos y notas.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -33,7 +35,10 @@
       <pubDate>Thu, 24 Aug 2017 21:17:16 -0500</pubDate>
       
       <guid>https://macn1234.github.io/proyectos/voiceCar/</guid>
-      <description></description>
+      <description>&lt;p&gt;Este proyecto fue realizado para la materia Teoria de la información , el proyecto consiste en un carro manejado por comandos de voz a travez de Bluetooth. Para este proyecto, se realizo todo el modulo de reconocimiento de voz y se uso una tarjeta programable texas para hacer el circuito del carro.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://macn1234.github.io/img/voiceCar.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>
