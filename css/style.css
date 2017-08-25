@@ -2,5 +2,5 @@
 
 
 #menu{
-  background-image: radial-gradient(circle, #368ec1, #000000);
+  background-image: radial-gradient(circle, #368ec1, #000000) !important;
 }
