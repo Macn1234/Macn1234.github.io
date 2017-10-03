@@ -6,8 +6,62 @@
     <description>Recent content in Proyectos on Miguel Cortes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Aug 2017 21:28:19 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 28 Sep 2017 21:28:19 -0500</lastBuildDate>
     <atom:link href="https://macn1234.github.io/proyectos/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Algoritmo de Bresenham</title>
+      <link>https://macn1234.github.io/proyectos/algoritmo-bresenham/</link>
+      <pubDate>Thu, 28 Sep 2017 21:28:19 -0500</pubDate>
+      
+      <guid>https://macn1234.github.io/proyectos/algoritmo-bresenham/</guid>
+      <description>&lt;p&gt;El algoritmo de Bresenham es un algoritmo relativamente sencillo y muy útil cuando se habla de computación gráfica, pues básicamente es un método rápido para el trazado de líneas en dispositivos gráficos, cuya principal cualidad es que solo realiza cálculos con enteros lo cual hace que los cálculos se hagan de manera veloz y sencilla.&lt;/p&gt;
+
+&lt;p&gt;Cuando pensamos en gráficos por computador, se debe entender que la pantalla es una gran matriz de pixeles, donde cada pixel puede tomar distintos valores en la escala RGB para representar un color dado. Si intentamos trazar una línea entre dos puntos (excepto para las líneas horizontales y verticales), siempre cortará los cuadrados por donde pasa, dividiendo al punto mínimo en dos áreas de diferente tamaño.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://macn1234.github.io/img/bresenham.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dado que una línea puede tocar varios pixeles, se puede elegir qué píxeles se va a marcar con la línea de acuerdo a diferentes criterios como por ejemplo podría iluminarse cada píxel que toca al trazarse la línea ideal o también aquellos píxeles que queden cortados por un determinado porcentaje del área de cada píxel.&lt;/p&gt;
+
+&lt;p&gt;El algoritmo funciona asi :&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Si 0&amp;lt;|m|&amp;lt;1&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Se capturan los extremos de la línea y se almacena el extremo izquierdo en (x0,y0).&lt;/li&gt;
+&lt;li&gt;Se carga (x0,y0) en el bufer de estructura (se traza el primer punto)&lt;/li&gt;
+&lt;li&gt;Se calculan las constantes Δx,Δy, 2Δy y 2Δy-Δx y se obtiene el valor inicial para el parametro de decisión p0=2Δy-Δx.&lt;/li&gt;
+&lt;li&gt;Para j=0 mientras j&amp;lt;Δx&lt;/li&gt;
+&lt;li&gt;En cada xk a lo largo de la línea, que inicia en k=0 se efectúa la prueba siguiente:
+
+&lt;ul&gt;
+&lt;li&gt;Si pk&amp;lt;0
+
+&lt;ul&gt;
+&lt;li&gt;Trazamos (xk+1,yk).&lt;/li&gt;
+&lt;li&gt;Asignamos pk+1= pk+2Δy.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Sino
+
+&lt;ul&gt;
+&lt;li&gt;Trazamos (xk+1,yk+1).&lt;/li&gt;
+&lt;li&gt;Asignamos pk+1= pk+2Δy-2Δx.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Fin&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Si |m|&amp;gt;1&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Recorremos la dirección en pasos unitarios y calculamos los valores sucesivos de x que se aproximen más a la trayectoria de la línea.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
     
     <item>
       <title>Dectector De Plagio en codigo fuente</title>
